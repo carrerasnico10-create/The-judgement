@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 985ebd30eabba154895b49703dd179c7, type: 3}
+  m_Name: 7
+  m_EditorClassIdentifier: Assembly-CSharp::DiologNode
+  listenDiolog: they- cann't you see you are desensitized to this wrong, how can
+    you can do anything about it because you think it is normal, and it is leading
+    you to death.
+  options:
+  - PlayerSpeaks: '*let them talk*'
+    resolt: {fileID: 11400000, guid: 726fcecf295fe4c4b945e50e90a586e8, type: 2}
+  inWorldActions:
+    m_PersistentCalls:
+      m_Calls: []

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 985ebd30eabba154895b49703dd179c7, type: 3}
+  m_Name: 8
+  m_EditorClassIdentifier: Assembly-CSharp::DiologNode
+  listenDiolog: they- i want your eyes and ears to be opened, my survent who is speading
+    this message, they are preying for you to relixe how bad the world is and how
+    good I am
+  options:
+  - PlayerSpeaks: me- who are you?
+    resolt: {fileID: 11400000, guid: 664a0d8b5fb8e89458ffba19c09fe572, type: 2}
+  inWorldActions:
+    m_PersistentCalls:
+      m_Calls: []
