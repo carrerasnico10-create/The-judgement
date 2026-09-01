@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 985ebd30eabba154895b49703dd179c7, type: 3}
-  m_Name: 6
+  m_Name: 26
   m_EditorClassIdentifier: Assembly-CSharp::DiologNode
-  listenDiolog: they- well you are living in a world full of unreliable narraters,
-    is it not more scary and stressful then any game man can creat.
+  listenDiolog: they- i have opened your eyes before you entered this game, do you
+    know what to do
   options:
   - PlayerSpeaks: me- yes
-    resolt: {fileID: 11400000, guid: 950dca380d4a95d40bb7590535d291f3, type: 2}
+    resolt: {fileID: 11400000, guid: ba3a8d22997abd14db426ec33985509a, type: 2}
   - PlayerSpeaks: me- no
-    resolt: {fileID: 11400000, guid: 49b8bcc47c05d1e4dbb270648857b4c1, type: 2}
+    resolt: {fileID: 11400000, guid: 8f1e7a5503acd6e438eec6be836dad2f, type: 2}
   inWorldActions:
     m_PersistentCalls:
       m_Calls: []

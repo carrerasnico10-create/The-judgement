@@ -10,15 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 985ebd30eabba154895b49703dd179c7, type: 3}
-  m_Name: 6
+  m_Name: 17
   m_EditorClassIdentifier: Assembly-CSharp::DiologNode
-  listenDiolog: they- well you are living in a world full of unreliable narraters,
-    is it not more scary and stressful then any game man can creat.
+  listenDiolog: they- then ask them are your sure and tell them even if you do not
+    beleive in me and do not do it for my sake, do it for the sake of your loved
+    once and even strangers, for you do not know if a stranger has someone
   options:
-  - PlayerSpeaks: me- yes
-    resolt: {fileID: 11400000, guid: 950dca380d4a95d40bb7590535d291f3, type: 2}
-  - PlayerSpeaks: me- no
-    resolt: {fileID: 11400000, guid: 49b8bcc47c05d1e4dbb270648857b4c1, type: 2}
+  - PlayerSpeaks: me- what if a stranger hurts me mentally or physically
+    resolt: {fileID: 11400000, guid: ba939d63938bd6344801f73c074a9aff, type: 2}
   inWorldActions:
     m_PersistentCalls:
       m_Calls: []

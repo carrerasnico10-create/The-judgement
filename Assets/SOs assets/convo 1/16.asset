@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 985ebd30eabba154895b49703dd179c7, type: 3}
+  m_Name: 16
+  m_EditorClassIdentifier: Assembly-CSharp::DiologNode
+  listenDiolog: 'them- you all lie to yourselve and eachother every time you say
+    "i am fine" or "my day was good".
+
+    you say I am just being polite, but tell
+    me is it polite to pretend everything is "fine" while you know you use the same
+    sheld to cover up you own pain'
+  options:
+  - PlayerSpeaks: me- never thought of that
+    resolt: {fileID: 11400000, guid: 1474a16ea46cb3642a01411097982334, type: 2}
+  - PlayerSpeaks: me- I do mean it
+    resolt: {fileID: 11400000, guid: 522baabd4e4c02d488e0079dd695ed44, type: 2}
+  inWorldActions:
+    m_PersistentCalls:
+      m_Calls: []

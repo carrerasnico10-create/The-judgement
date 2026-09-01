@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 985ebd30eabba154895b49703dd179c7, type: 3}
-  m_Name: 6
+  m_Name: 25
   m_EditorClassIdentifier: Assembly-CSharp::DiologNode
-  listenDiolog: they- well you are living in a world full of unreliable narraters,
-    is it not more scary and stressful then any game man can creat.
-  options:
-  - PlayerSpeaks: me- yes
-    resolt: {fileID: 11400000, guid: 950dca380d4a95d40bb7590535d291f3, type: 2}
-  - PlayerSpeaks: me- no
-    resolt: {fileID: 11400000, guid: 49b8bcc47c05d1e4dbb270648857b4c1, type: 2}
+  listenDiolog: 'they- i am over joyed that your heart solfened, get a coppy of the
+    christian standard bible(csb) or you can use yourversion bible app i want to
+    listen instead.
+
+    the convertion will take time for you to brake your habbits,
+    start at mathew 1'
+  options: []
   inWorldActions:
     m_PersistentCalls:
       m_Calls: []

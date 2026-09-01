@@ -13,13 +13,13 @@ public class DiologHandler : MonoBehaviour
     private Action[] buttionListenerRe;
     public TMP_Text speaker;
     public bool debug = false;
-    public TMP_Text debugCurentNodeNameDisplay;
+    
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         curentNod = rootNod;
         SetupUI();
-        debugCurentNodeNameDisplay.enabled = debug;
+        
     }
     private void SetupUI()
     {
@@ -28,8 +28,14 @@ public class DiologHandler : MonoBehaviour
         AddButtons();
         Canvas.ForceUpdateCanvases();
 
-        if(debug)
-        debugCurentNodeNameDisplay.text = curentNod.name;
+        if (debug)
+        {
+            Debug.Log($"curent nod;{curentNod.name}");
+            foreach(DiologOptions option in curentNod.options)
+            {
+                Debug.Log($"options;{option.resolt.name}");
+            }
+        }
     }
     public void OnClick(int option)
     {
@@ -59,7 +65,7 @@ public class DiologHandler : MonoBehaviour
                 button.interactable = false;
             }
             button.onClick.AddListener(() => OnClick(index));
-            Debug.Log($"button.onClick.AddListener(() => OnClick({index}));");
+            //Debug.Log($"button.onClick.AddListener(() => OnClick({index}));");
             GameObject lable = tempbutton.transform.GetChild(0).gameObject;
             lable.GetComponent<TMP_Text>().text = curentNod.options[i].PlayerSpeaks;
         }

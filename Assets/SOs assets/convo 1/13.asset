@@ -12,9 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 985ebd30eabba154895b49703dd179c7, type: 3}
   m_Name: 13
   m_EditorClassIdentifier: Assembly-CSharp::DiologNode
-  listenDiolog: them- this is appart of you story when the truth is revild, throught
+  listenDiolog: 'them- this is appart of you story when the truth is revild, throught
     me,and I tell you I respect you decision.
-  options: []
+
+    for isn''t a story of this nature
+    you seek at some point revils itself to you..'
+  options:
+  - PlayerSpeaks: me- yah
+    resolt: {fileID: 11400000, guid: e45c52ce53783c142b0fe97d47425ffe, type: 2}
+  - PlayerSpeaks: 'me- that is not how that works
+
+'
+    resolt: {fileID: 11400000, guid: f73ccc9adc1446348aa679bff8cff99f, type: 2}
+  - PlayerSpeaks: me- now hold on why do you let bad stuff happ if you are good and
+      all powerfull
+    resolt: {fileID: 11400000, guid: 6712d8166c5c82749a056543519e1ff6, type: 2}
   inWorldActions:
     m_PersistentCalls:
       m_Calls: []

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 985ebd30eabba154895b49703dd179c7, type: 3}
+  m_Name: 33
+  m_EditorClassIdentifier: Assembly-CSharp::DiologNode
+  listenDiolog: they- you have a poket rectangle in your poket to comfort people
+    all around the world and donate to people across the world to help them in times
+    of need, instead you spead hate and lough at people in need, or holding people
+    to differnt standard, not kiling when they are sharing their feelings.
+  options:
+  - PlayerSpeaks: me- i never thought of it like that, i will do what you say
+    resolt: {fileID: 11400000, guid: 01353d78c0c0adf49a7cd79cec64f1d8, type: 2}
+  - PlayerSpeaks: me- i am a good person
+    resolt: {fileID: 11400000, guid: 5cd4724f360dd724e9fcba4031c40f6f, type: 2}
+  - PlayerSpeaks: me- i do not have mutch mony and or time
+    resolt: {fileID: 11400000, guid: 23145ea9813370646922fd5800fa2f8f, type: 2}
+  inWorldActions:
+    m_PersistentCalls:
+      m_Calls: []

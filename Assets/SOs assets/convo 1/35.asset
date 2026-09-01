@@ -10,15 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 985ebd30eabba154895b49703dd179c7, type: 3}
-  m_Name: 6
+  m_Name: 35
   m_EditorClassIdentifier: Assembly-CSharp::DiologNode
-  listenDiolog: they- well you are living in a world full of unreliable narraters,
-    is it not more scary and stressful then any game man can creat.
-  options:
-  - PlayerSpeaks: me- yes
-    resolt: {fileID: 11400000, guid: 950dca380d4a95d40bb7590535d291f3, type: 2}
-  - PlayerSpeaks: me- no
-    resolt: {fileID: 11400000, guid: 49b8bcc47c05d1e4dbb270648857b4c1, type: 2}
+  listenDiolog: they- i am overjoyed your heart has became solfter, but do not annoce
+    it to people when you donate or do something good for reconition, for when you
+    do, you already have your reconition, but if you don't seek human reconition,
+    you will recieve mine.
+  options: []
   inWorldActions:
     m_PersistentCalls:
       m_Calls: []

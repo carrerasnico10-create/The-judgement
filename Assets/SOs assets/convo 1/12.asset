@@ -15,12 +15,12 @@ MonoBehaviour:
   listenDiolog: they- I even gave my own son for you despite you who do wong
   options:
   - PlayerSpeaks: me- wait you are jessus, what must i do
-    resolt: {fileID: 0}
+    resolt: {fileID: 11400000, guid: 8f1e7a5503acd6e438eec6be836dad2f, type: 2}
   - PlayerSpeaks: me- wait you are sopos to be jessus, how is this related to unreliable
       narrater, and do you expect me to convert.
     resolt: {fileID: 11400000, guid: ce5e371cbca65f241a933367c7f95f00, type: 2}
-  - PlayerSpeaks: me- I already follow you
-    resolt: {fileID: 0}
+  - PlayerSpeaks: me- you are jessus I already follow you
+    resolt: {fileID: 11400000, guid: 1a529e14aedf31747a7a55f277fb82d9, type: 2}
   inWorldActions:
     m_PersistentCalls:
       m_Calls: []
