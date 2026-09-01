@@ -12,17 +12,24 @@ public class DiologHandler : MonoBehaviour
     public Transform options;
     private Action[] buttionListenerRe;
     public TMP_Text speaker;
+    public bool debug = false;
+    public TMP_Text debugCurentNodeNameDisplay;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         curentNod = rootNod;
         SetupUI();
+        debugCurentNodeNameDisplay.enabled = debug;
     }
     private void SetupUI()
     {
         RemoveButtons();
         speaker.text = curentNod.listenDiolog;
         AddButtons();
+        Canvas.ForceUpdateCanvases();
+
+        if(debug)
+        debugCurentNodeNameDisplay.text = curentNod.name;
     }
     public void OnClick(int option)
     {

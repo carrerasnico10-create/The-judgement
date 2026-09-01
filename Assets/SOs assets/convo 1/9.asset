@@ -15,10 +15,8 @@ MonoBehaviour:
   listenDiolog: them- my name is not inportent, what is so is what i did, I parted
     the seas to save by people and used the same seas to drown their enimies.
   options:
-  - PlayerSpeaks: '*l
-
-      et them speak*'
-    resolt: {fileID: 0}
+  - PlayerSpeaks: '*let them speak*'
+    resolt: {fileID: 11400000, guid: 619cbacf2034876488fd672caf54ead3, type: 2}
   inWorldActions:
     m_PersistentCalls:
       m_Calls: []

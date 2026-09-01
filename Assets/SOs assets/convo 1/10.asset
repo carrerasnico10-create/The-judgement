@@ -16,8 +16,8 @@ MonoBehaviour:
     saved three man from a furnace that was set hotter then usual, the same one the
     killed the soldiers who are thew them.
   options:
-  - PlayerSpeaks: 
-    resolt: {fileID: 0}
+  - PlayerSpeaks: '*let them speak*'
+    resolt: {fileID: 11400000, guid: 49628399b5c7f0449b00cdab0ea977e3, type: 2}
   inWorldActions:
     m_PersistentCalls:
       m_Calls: []
