@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 985ebd30eabba154895b49703dd179c7, type: 3}
-  m_Name: 19
+  m_Name: 38
   m_EditorClassIdentifier: Assembly-CSharp::DiologNode
-  listenDiolog: them- I am over joyed that your haert has solfened, have a bessed
-    day.
+  listenDiolog: avel- i tell you god can use any midiun to speak to people, even
+    the wind or a feeling of peace, and i ask you hasn't the bible portrayed him
+    to just words of a page, or the show "the chosen" has actors playing as jessus
+    and his desiples.
   options:
-  - PlayerSpeaks: /<end game>
-    resolt: {fileID: 11400000, guid: f3191566d4a53634d8426c1d9f367da6, type: 2}
-  - PlayerSpeaks: /<reload game>
-    resolt: {fileID: 11400000, guid: e3c34b54f1b3a574e9950f5a4588d551, type: 2}
+  - PlayerSpeaks: yes
+    resolt: {fileID: 11400000, guid: 9126c239a35c4e443865908dbe93761e, type: 2}
   inWorldActions:
     m_PersistentCalls:
       m_Calls: []

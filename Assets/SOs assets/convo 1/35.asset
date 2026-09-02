@@ -16,7 +16,11 @@ MonoBehaviour:
     it to people when you donate or do something good for reconition, for when you
     do, you already have your reconition, but if you don't seek human reconition,
     you will recieve mine.
-  options: []
+  options:
+  - PlayerSpeaks: /<end game>
+    resolt: {fileID: 11400000, guid: f3191566d4a53634d8426c1d9f367da6, type: 2}
+  - PlayerSpeaks: /<reload game>
+    resolt: {fileID: 11400000, guid: e3c34b54f1b3a574e9950f5a4588d551, type: 2}
   inWorldActions:
     m_PersistentCalls:
       m_Calls: []

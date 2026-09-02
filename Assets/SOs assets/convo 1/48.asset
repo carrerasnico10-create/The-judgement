@@ -10,15 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 985ebd30eabba154895b49703dd179c7, type: 3}
-  m_Name: 19
+  m_Name: 48
   m_EditorClassIdentifier: Assembly-CSharp::DiologNode
-  listenDiolog: them- I am over joyed that your haert has solfened, have a bessed
-    day.
+  listenDiolog: they- or what if you are in the mountain and you see a collum of
+    cloud in day and of fire at night, or you even see a 4 day old corps start walking
+    even after being embalmed
   options:
-  - PlayerSpeaks: /<end game>
-    resolt: {fileID: 11400000, guid: f3191566d4a53634d8426c1d9f367da6, type: 2}
-  - PlayerSpeaks: /<reload game>
-    resolt: {fileID: 11400000, guid: e3c34b54f1b3a574e9950f5a4588d551, type: 2}
+  - PlayerSpeaks: me- true
+    resolt: {fileID: 11400000, guid: db03d847e0e7f29449004ceb5ae64abf, type: 2}
   inWorldActions:
     m_PersistentCalls:
       m_Calls: []

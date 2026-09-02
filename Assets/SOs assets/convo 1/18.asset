@@ -15,7 +15,11 @@ MonoBehaviour:
   listenDiolog: thet- they won't but, if they do then I will be there in spirit for
     you and if you do not beleive in me, my survent who created this game will prey
     for you. have a blessed day.
-  options: []
+  options:
+  - PlayerSpeaks: /<end game>
+    resolt: {fileID: 11400000, guid: f3191566d4a53634d8426c1d9f367da6, type: 2}
+  - PlayerSpeaks: /<start over from begining>
+    resolt: {fileID: 11400000, guid: e3c34b54f1b3a574e9950f5a4588d551, type: 2}
   inWorldActions:
     m_PersistentCalls:
       m_Calls: []

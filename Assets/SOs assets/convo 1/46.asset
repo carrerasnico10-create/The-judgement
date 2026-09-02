@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 985ebd30eabba154895b49703dd179c7, type: 3}
+  m_Name: 46
+  m_EditorClassIdentifier: Assembly-CSharp::DiologNode
+  listenDiolog: 'they- you do not know what you are saying, magine for me, you are
+    on the beach, relaxing, playing, enjoying your time off of work, but then the
+    sea splits into two to ware even the seabed is as dry as the land.
+
+    what
+    would be your reaction?'
+  options:
+  - PlayerSpeaks: me- i would run and or get trampled under foor of other running
+      people
+    resolt: {fileID: 11400000, guid: eb1b691b94e07c247a929a5dee790731, type: 2}
+  - PlayerSpeaks: me- ok, but what about like the mirical of jessus
+    resolt: {fileID: 11400000, guid: e0fe7615829d3d94cab81887ea999b90, type: 2}
+  inWorldActions:
+    m_PersistentCalls:
+      m_Calls: []

@@ -21,6 +21,11 @@ MonoBehaviour:
     resolt: {fileID: 11400000, guid: ce5e371cbca65f241a933367c7f95f00, type: 2}
   - PlayerSpeaks: me- you are jessus I already follow you
     resolt: {fileID: 11400000, guid: 1a529e14aedf31747a7a55f277fb82d9, type: 2}
+  - PlayerSpeaks: me- Avel is blasfeeming, by reducing the lord as a game charicter.
+    resolt: {fileID: 11400000, guid: 4d10fb191a9117245aea7ce3cf1d7288, type: 2}
+  - PlayerSpeaks: me- why aren't showing your act in a more visible and oviose way
+      like in exodus
+    resolt: {fileID: 11400000, guid: d830fa3fc71267e458d67287b79de00e, type: 2}
   inWorldActions:
     m_PersistentCalls:
       m_Calls: []

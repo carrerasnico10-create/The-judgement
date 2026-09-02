@@ -20,6 +20,9 @@ MonoBehaviour:
     resolt: {fileID: 11400000, guid: e6cbfcf0b6e179c4a80562d4d0cf13de, type: 2}
   - PlayerSpeaks: me- you let bad people still continue and even prosper
     resolt: {fileID: 11400000, guid: a7c7cf97087859848b9d8afae66e3695, type: 2}
+  - PlayerSpeaks: me- why do you send people to hell for not believing or not following
+      you
+    resolt: {fileID: 11400000, guid: e632d0d076793344b8bce56c5859c4c3, type: 2}
   inWorldActions:
     m_PersistentCalls:
       m_Calls: []

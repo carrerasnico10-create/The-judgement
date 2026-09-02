@@ -41,6 +41,7 @@ public class DiologHandler : MonoBehaviour
     {
         curentNod = curentNod.options[option].resolt;
         SetupUI();
+        curentNod.inWorldActions.Invoke();
     }
     private void RemoveButtons()
     {
@@ -73,5 +74,6 @@ public class DiologHandler : MonoBehaviour
     private void OnDisable()
     {
         RemoveButtons();
+        
     }
 }

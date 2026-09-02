@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 985ebd30eabba154895b49703dd179c7, type: 3}
-  m_Name: 19
+  m_Name: 43
   m_EditorClassIdentifier: Assembly-CSharp::DiologNode
-  listenDiolog: them- I am over joyed that your haert has solfened, have a bessed
-    day.
+  listenDiolog: they- how might i compare "minnor" sins it is like a gateway drug,
+    witch you should not do, you start to aclomate to it and build up resistance,
+    but you still want a kick, and so it leads you to something stronger, even to
+    the point of actual litteral drugs.
   options:
-  - PlayerSpeaks: /<end game>
-    resolt: {fileID: 11400000, guid: f3191566d4a53634d8426c1d9f367da6, type: 2}
-  - PlayerSpeaks: /<reload game>
-    resolt: {fileID: 11400000, guid: e3c34b54f1b3a574e9950f5a4588d551, type: 2}
+  - PlayerSpeaks: '*let them speak*'
+    resolt: {fileID: 11400000, guid: d64022a896c52bc49be45f5f64ee2a6b, type: 2}
   inWorldActions:
     m_PersistentCalls:
       m_Calls: []

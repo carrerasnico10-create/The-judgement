@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 985ebd30eabba154895b49703dd179c7, type: 3}
-  m_Name: 19
+  m_Name: 45
   m_EditorClassIdentifier: Assembly-CSharp::DiologNode
-  listenDiolog: them- I am over joyed that your haert has solfened, have a bessed
-    day.
+  listenDiolog: they- i have opened your eyes before you entered this game, do you
+    know what to do
   options:
-  - PlayerSpeaks: /<end game>
-    resolt: {fileID: 11400000, guid: f3191566d4a53634d8426c1d9f367da6, type: 2}
-  - PlayerSpeaks: /<reload game>
-    resolt: {fileID: 11400000, guid: e3c34b54f1b3a574e9950f5a4588d551, type: 2}
+  - PlayerSpeaks: me- yes
+    resolt: {fileID: 11400000, guid: ba3a8d22997abd14db426ec33985509a, type: 2}
+  - PlayerSpeaks: me- no
+    resolt: {fileID: 11400000, guid: 8f1e7a5503acd6e438eec6be836dad2f, type: 2}
   inWorldActions:
     m_PersistentCalls:
       m_Calls: []

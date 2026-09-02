@@ -10,15 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 985ebd30eabba154895b49703dd179c7, type: 3}
-  m_Name: 19
+  m_Name: 41
   m_EditorClassIdentifier: Assembly-CSharp::DiologNode
-  listenDiolog: them- I am over joyed that your haert has solfened, have a bessed
-    day.
+  listenDiolog: 'they- in the same way my light and power is not with those who do
+    not want a relationship with me, i am just simply respecting you desission.
+
+    without
+    me there is no love, because I am love in it''s purest form.'
   options:
-  - PlayerSpeaks: /<end game>
-    resolt: {fileID: 11400000, guid: f3191566d4a53634d8426c1d9f367da6, type: 2}
-  - PlayerSpeaks: /<reload game>
-    resolt: {fileID: 11400000, guid: e3c34b54f1b3a574e9950f5a4588d551, type: 2}
+  - PlayerSpeaks: '*let them speak*'
+    resolt: {fileID: 11400000, guid: 756655995a828074892805752811f19a, type: 2}
   inWorldActions:
     m_PersistentCalls:
       m_Calls: []

@@ -16,7 +16,9 @@ MonoBehaviour:
     money, the less you have when give will have less earthly impact, but a greater
     hevenly blessing, while donating out of your welth creates a greater impact of
     earth, not much so in the kindom of hevon.
-  options: []
+  options:
+  - PlayerSpeaks: me- ...
+    resolt: {fileID: 11400000, guid: db03d847e0e7f29449004ceb5ae64abf, type: 2}
   inWorldActions:
     m_PersistentCalls:
       m_Calls: []

@@ -13,7 +13,9 @@ MonoBehaviour:
   m_Name: 34
   m_EditorClassIdentifier: Assembly-CSharp::DiologNode
   listenDiolog: they- you have said so
-  options: []
+  options:
+  - PlayerSpeaks: me- ...
+    resolt: {fileID: 11400000, guid: db03d847e0e7f29449004ceb5ae64abf, type: 2}
   inWorldActions:
     m_PersistentCalls:
       m_Calls: []

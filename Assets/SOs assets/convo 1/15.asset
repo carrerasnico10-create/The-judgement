@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: 15
   m_EditorClassIdentifier: Assembly-CSharp::DiologNode
   listenDiolog: they- the scary part isn't in this enviroment, but in your day to
-    day, the lies, the neglect, the destractions,the warries.
+    day, the lies, the neglect, the destractions,the warries out of the game and
+    out of you computer
   options:
   - PlayerSpeaks: '*let him speak*'
     resolt: {fileID: 11400000, guid: e7301743efe92e2488dd4ae85fe98795, type: 2}

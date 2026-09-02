@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DiologNode
   listenDiolog: they- I respected your choice, my survent hopes you will change your
     mind,but i know, just know i rased up nations
-  options: []
+  options:
+  - PlayerSpeaks: me- ok man
+    resolt: {fileID: 11400000, guid: db03d847e0e7f29449004ceb5ae64abf, type: 2}
   inWorldActions:
     m_PersistentCalls:
       m_Calls: []

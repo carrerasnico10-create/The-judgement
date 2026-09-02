@@ -16,7 +16,10 @@ MonoBehaviour:
     me,and I tell you I respect you decision.
 
     for isn''t a story of this nature
-    you seek at some point revils itself to you..'
+    you seek at some point revils itself to you..
+
+    cannot the description of
+    the game be a unreliable narrater'
   options:
   - PlayerSpeaks: me- yah
     resolt: {fileID: 11400000, guid: e45c52ce53783c142b0fe97d47425ffe, type: 2}
