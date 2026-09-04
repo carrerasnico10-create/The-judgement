@@ -2,17 +2,19 @@ using System;
 using System.Reflection.Emit;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 public class DiologHandler : MonoBehaviour
 {
     public DiologNode rootNod;
-    private DiologNode curentNod;
+    public DiologNode curentNod;
     public GameObject buttonPrefab;
     private Button button;
     public Transform options;
     private Action[] buttionListenerRe;
     public TMP_Text speaker;
     public bool debug = false;
+    public UnityEvent OnNodeChange;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -41,7 +43,8 @@ public class DiologHandler : MonoBehaviour
     {
         curentNod = curentNod.options[option].resolt;
         SetupUI();
-        curentNod.inWorldActions.Invoke();
+        //curentNod.inWorldActions.Invoke();
+        OnNodeChange.Invoke();
     }
     private void RemoveButtons()
     {

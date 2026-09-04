@@ -7,7 +7,7 @@ public class DiologNode : ScriptableObject
     [TextArea(3,10)]
     public string listenDiolog;
     public DiologOptions[] options;
-    public UnityEvent inWorldActions;
+    //public UnityEvent inWorldActions;
 }
 [Serializable]
 public class DiologOptions

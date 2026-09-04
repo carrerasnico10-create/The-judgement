@@ -138,7 +138,7 @@ Material:
     - _ZWrite: 1
     - _paint_noise_scale: 500
     - _stain_noise_scall: 1
-    - _stain_threshhold: 0.88
+    - _stain_threshhold: 0.66
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}

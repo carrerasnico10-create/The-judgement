@@ -267,6 +267,8 @@ GameObject:
   - component: {fileID: 137530954}
   - component: {fileID: 137530953}
   - component: {fileID: 137530952}
+  - component: {fileID: 137530956}
+  - component: {fileID: 137530957}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -357,6 +359,35 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &137530956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 137530951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2ee16eb41ff1ed4da236a4e19651f43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ExitGame
+  dh: {fileID: 1223168324}
+  target: {fileID: 11400000, guid: f3191566d4a53634d8426c1d9f367da6, type: 2}
+--- !u!114 &137530957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 137530951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 810556c4bdb4aae40a0c91974a62fd06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SceneReload
+  dh: {fileID: 1223168324}
+  target: {fileID: 11400000, guid: e3c34b54f1b3a574e9950f5a4588d551, type: 2}
+  sceneIndex: 0
 --- !u!1 &174590080
 GameObject:
   m_ObjectHideFlags: 0
@@ -1379,7 +1410,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &701874121
 Transform:
   m_ObjectHideFlags: 0
@@ -1480,7 +1511,7 @@ Light:
   m_BounceIntensity: 0.84
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 2.4405384e-30, y: 2.2e-44, z: 4.591775e-39, w: 2.2227777e-38}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -6588,10 +6619,38 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DiologHandler
   rootNod: {fileID: 11400000, guid: 5bb28baf0c052cb48af3e4319814b5e1, type: 2}
+  curentNod: {fileID: 0}
   buttonPrefab: {fileID: 8940526903947900189, guid: 6ca0a00793f9a284985214343b5b6d97, type: 3}
   options: {fileID: 1984413452}
   speaker: {fileID: 436670312}
   debug: 1
+  OnNodeChange:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 137530956}
+        m_TargetAssemblyTypeName: ExitGame, Assembly-CSharp
+        m_MethodName: OnNodeChange
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 137530957}
+        m_TargetAssemblyTypeName: SceneReload, Assembly-CSharp
+        m_MethodName: OnNodeChange
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1223168325
 MonoBehaviour:
   m_ObjectHideFlags: 0
