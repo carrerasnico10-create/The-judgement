@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 985ebd30eabba154895b49703dd179c7, type: 3}
+  m_Name: initial dev message
+  m_EditorClassIdentifier: Assembly-CSharp::DiologNode
+  listenDiolog: 'Aval(dev)- this game was make for the Hawktober Horrors 2026 game
+    jam, the theme was unreliable narrator, this game uses the theme creatively,
+    i will explain more at the end so you have no spoilers.
+
+    I got sick with
+    the flu or something  so you may see some place holders, less vissual polish,
+    and no sound, but the basic story is done.
+
+    if i feel better befor the deadline
+    I will fix these issues'
+  options:
+  - PlayerSpeaks: /<start game>
+    resolt: {fileID: 11400000, guid: 5bb28baf0c052cb48af3e4319814b5e1, type: 2}
+  - PlayerSpeaks: /<exit game>
+    resolt: {fileID: 11400000, guid: 4b00c233b28d1044ba0086c03d27486c, type: 2}
