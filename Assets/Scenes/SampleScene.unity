@@ -267,8 +267,6 @@ GameObject:
   - component: {fileID: 137530954}
   - component: {fileID: 137530953}
   - component: {fileID: 137530952}
-  - component: {fileID: 137530956}
-  - component: {fileID: 137530957}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -359,35 +357,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &137530956
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 137530951}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e2ee16eb41ff1ed4da236a4e19651f43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ExitGame
-  dh: {fileID: 1223168324}
-  target: {fileID: 11400000, guid: 4b00c233b28d1044ba0086c03d27486c, type: 2}
---- !u!114 &137530957
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 137530951}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 810556c4bdb4aae40a0c91974a62fd06, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SceneReload
-  dh: {fileID: 1223168324}
-  target: {fileID: 11400000, guid: e3c34b54f1b3a574e9950f5a4588d551, type: 2}
-  sceneIndex: 0
 --- !u!1 &174590080
 GameObject:
   m_ObjectHideFlags: 0
@@ -716,7 +685,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!136 &295036090
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -835,8 +804,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0.99
+  MaxDistance: 23.07
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -871,7 +840,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -6725,7 +6694,7 @@ MonoBehaviour:
   OnNodeChange:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 137530956}
+      - m_Target: {fileID: 2019183179}
         m_TargetAssemblyTypeName: ExitGame, Assembly-CSharp
         m_MethodName: OnNodeChange
         m_Mode: 1
@@ -6737,8 +6706,20 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 137530957}
+      - m_Target: {fileID: 2019183178}
         m_TargetAssemblyTypeName: SceneReload, Assembly-CSharp
+        m_MethodName: OnNodeChange
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2019183176}
+        m_TargetAssemblyTypeName: ActivationObjectControl, Assembly-CSharp
         m_MethodName: OnNodeChange
         m_Mode: 1
         m_Arguments:
@@ -7333,6 +7314,85 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.ContentSizeFitter
   m_HorizontalFit: 0
   m_VerticalFit: 2
+--- !u!1 &2019183175
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2019183177}
+  - component: {fileID: 2019183176}
+  - component: {fileID: 2019183179}
+  - component: {fileID: 2019183178}
+  m_Layer: 0
+  m_Name: in world actions
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2019183176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2019183175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9d378f3bae444f4cb5064c1f1404da0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ActivationObjectControl
+  dh: {fileID: 1223168324}
+  target: {fileID: 11400000, guid: 7c33af47ff52c9d45aad601054451fa4, type: 2}
+  GOtarget: {fileID: 295036089}
+  active: 1
+--- !u!4 &2019183177
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2019183175}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.34, y: 0.2475, z: -4.94}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2019183178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2019183175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 810556c4bdb4aae40a0c91974a62fd06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SceneReload
+  dh: {fileID: 1223168324}
+  target: {fileID: 11400000, guid: e3c34b54f1b3a574e9950f5a4588d551, type: 2}
+  sceneIndex: 0
+--- !u!114 &2019183179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2019183175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2ee16eb41ff1ed4da236a4e19651f43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ExitGame
+  dh: {fileID: 1223168324}
+  target: {fileID: 11400000, guid: 4b00c233b28d1044ba0086c03d27486c, type: 2}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -7347,3 +7407,4 @@ SceneRoots:
   - {fileID: 630424754}
   - {fileID: 304292856}
   - {fileID: 343961484}
+  - {fileID: 2019183177}
